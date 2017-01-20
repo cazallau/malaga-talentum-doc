@@ -23,10 +23,11 @@ tools:context=".NumericPadFragment">
 ```    
 
 * Para dar a cada elemento el porcentaje de pantalla deseado:
- ```html
+ ```java
     app:layout_widthPercent="33%"
     app:layout_heightPercent="25%"
-```
+ ```
+
 * Hay que tener cuidado con los padding y con los margin, que tambien forman parte del porcentaje de pantalla.
 
 ### Ejemplo de un layout de una actividad con PercentilLayout
